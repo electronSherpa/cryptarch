@@ -37,3 +37,12 @@ Requests can be made by sending a POST request with application/x-www-form-urlen
 `curl -i -X POST -F "message=gAAAAABi33I8Z0TSDx1LACt-UV5AssLtG_49gBJiPejmOFVH9HPyzI-DIgwI4RYQ7epoJSVsXTFTJrfODc-yplBHDUOMM2Wdyw==" localhost:5000/decrypt`
 
 The response data of the POST request is the encrypted or decrypted text
+
+### Encryption Sequence Diagram
+
+![encryption sequence diagram](/assets/images/encryption-seq-diagram.jpeg)
+
+
+### Decryption Sequence Diagram
+
+![decryption sequence diagram](/assets/images/decryption-seq-diagram.jpeg)
